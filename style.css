@@ -14,6 +14,7 @@ body{
 }
 
 .container{
+    
     padding: 20px;
     background-color: #ffffffbb;
     border-radius: 10px;
@@ -49,7 +50,7 @@ button{
 p{
     font-weight: bold;
     margin-top: 10px;
-    font-size: large;
+    font-size: 25px;
    
 }
 
@@ -58,4 +59,16 @@ p{
 }
 .machineScore span{
     color: rgba(201, 32, 32, 0.875);
+}
+
+#choiceplayMachine{
+    color: rgba(11, 5, 35, 0.903);
+    margin-bottom: 10px;
+}
+
+.result{
+    color: rgb(92, 10, 70);
+    margin-bottom: 10px;
+    font-size: 30px;
+    border-style: outset;
 }

@@ -11,16 +11,21 @@
         <h1>JokenPô </h1>
 
     <div class="buttons">
-        <button id="rock">&#x1F44A</button>
-        <button id="paper">&#x1F590</button>
-        <button id="scissors">&#x1F596</button>
+        <button id="rock" onclick="playHuman('rock')">&#x1F44A</button>
+        <button id="paper" onclick="playHuman('paper')">&#x1F590</button>
+        <button id="scissors" onclick="playHuman('scissors')">&#x1F596</button>
+    </div>
+        <button id="choiceplayMachine"></button>
+        <p class="result"></p>
+       
+        <div class="container2">
+            <p class="score">Sua pontuação: <span class="showScoreHuman">0</span></p>
+            <p class="machineScore">Pontuação da Alexa: <span class="showMachineScore">0</span></p>
+        </div>
     </div>
 
-        <p class="score">Sua pontuação: <span>0</span></p>
-        <p class="machineScore">Pontuação da Alexa: <span>0</span></p>
-        <p class="result"></p>
-    </div>
-    <p class="result"></p>
+    
+    
 <script src="./script.js"></script>
 </body>
 </html>
