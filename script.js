@@ -3,6 +3,7 @@ const showChoiceplayMachine =document.getElementById('choiceplayMachine')
 const yourScore = document.querySelector('.showScoreHuman')
 const machineScore = document.querySelector('.showMachineScore')
 
+
 let humanScoreNumber=0
 let machineScoreNumber=0
 
@@ -40,4 +41,10 @@ const playGame = (human, machine)=>{
         machineScore.innerHTML=machineScoreNumber
         result.innerHTML = "Você PERDEU! &#x1F641"
     }
+
+    const btnRefresh = document.querySelector('.refresh')
+
+    btnRefresh.addEventListener('click', () =>{
+        location.reload()
+    })
 }
