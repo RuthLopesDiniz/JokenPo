@@ -15,9 +15,9 @@ body{
 }
 
 .container{
-    min-height: 70vh;
+    min-height: 30vh;
     padding: 20px;
-    min-width: 40vw;
+    min-width: 30vw;
     background-color: #ffffffbb;
     border-radius: 10px;
     display: flex;
